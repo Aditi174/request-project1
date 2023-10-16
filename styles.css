@@ -1,0 +1,15 @@
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+}
+
+@media(max-width: 600px){
+    .photo-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
